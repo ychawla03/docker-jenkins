@@ -16,3 +16,10 @@ node {
     }
   }
 }
+
+#-Install the below in Jenkins Server:
+ sudo apt install default-jdk
+ sudo apt install maven
+
+ -Run Sonarqube as Docker Container:
+ docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
