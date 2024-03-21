@@ -20,7 +20,7 @@ pipeline {
           stage("SonarQube Analysis") {
             agent any
             steps {
-              sh 'mvn clean verify sonar:sonar -Dsonar.token=squ_f881c7138a1dc1f7a813da04898aba2b6ca5dc9c'
+              sh 'mvn clean verify sonar:sonar -Dsonar.token3=squ_25cc0e0fe37e8d5a8a19d6f1f0ddbb0ff62edeca'
             }
           }
 
